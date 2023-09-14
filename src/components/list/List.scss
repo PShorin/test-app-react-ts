@@ -1,0 +1,17 @@
+.list {
+  gap: 12px;
+
+  .row {
+    gap: 12px;
+  }
+}
+
+.round {
+  background: linear-gradient(124deg, #8A50CF 0%, #4A22D2 100%);
+  border-radius: 50%;
+  min-width: 32px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 8px;
+}

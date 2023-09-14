@@ -1,0 +1,42 @@
+.pentagon {
+  height: 40%;
+  background: linear-gradient(124deg, #8A50CF 0%, #4A22D2 100%);
+  position: relative;
+  padding: 8px;
+  box-sizing: border-box;
+  margin-top: 16px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+
+  clip-path: polygon(85% 0, 100% 25%, 100% 100%, 0 100%, 0 0);
+
+  button {
+    background: #F4F0FE;
+    padding: 2px 4px;
+    border: none;
+    transition: background 0.3s ease, color 0.5s ease;
+
+    p {
+      color: #8A50CF;
+    }
+
+    &:hover {
+      background: #171D25;
+
+      p {
+        color: #F4F0FE;
+      }
+    }
+  }
+}
+
+.pentagon-text {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
