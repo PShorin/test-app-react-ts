@@ -1,0 +1,28 @@
+.go-block {
+  clip-path: polygon(75% 0, 100% 40%, 50% 100%, 0 40%, 25% 0);
+
+  height: 22vw;
+  width: 40%;
+  background: linear-gradient(124deg, #8A50CF 0%, #4A22D2 100%);
+  position: relative;
+  box-sizing: border-box;
+  margin-top: 16px;
+  // margin-bottom: 320px;
+
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  flex-direction: column;
+
+  p {
+    color: #FFF;
+    font-size: 30vw;
+    font-weight: 500;
+    line-height: 20vw;
+    text-wrap: nowrap;
+  }
+}
+
+.height-50vh {
+  height: 70vh;
+}

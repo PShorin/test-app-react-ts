@@ -8,8 +8,7 @@
   padding: 0;
 }
 
-.fullscreen-element {
-  width: 100vw;
+.max-height {
   height: 100vh;
 }
 
@@ -65,9 +64,15 @@ $justify-content-value: space-between;
   }
 }
 
-.wrapper {
+.wrapper-60 {
   width: 60%;
   height: 100%;
   margin: auto;
   gap: 24px;
+}
+
+.center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
