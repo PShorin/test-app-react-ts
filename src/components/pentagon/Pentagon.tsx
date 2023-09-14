@@ -1,3 +1,4 @@
+import React from 'react';
 import './Pentagon.scss';
 
 const buttonsText : string[] = ['360p', '720p', 'HD', 'Full HD', '4k'];
@@ -15,8 +16,8 @@ const Pentagon = () => {
       </div>
 
       <div className={`row justify-space-between`}>
-        {buttonsText.map((text) => (
-          <button>
+        {buttonsText.map((text, index) => (
+          <button key={index}>
             <p className='medium14x16'>{text}</p>
           </button>
         ))}

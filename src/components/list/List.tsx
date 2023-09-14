@@ -1,3 +1,4 @@
+import React from 'react';
 import './List.scss';
 
 const listText : {
@@ -13,7 +14,7 @@ const List = () => {
   return (
     <div className="column list">
       {listText.map((item) => (
-        <div className="row align-center">
+        <div className="row align-center" key={item.id}>
           <div className='round'>
             <p className='medium24x32'>{item.id}</p>
           </div>

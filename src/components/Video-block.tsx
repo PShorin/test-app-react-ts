@@ -1,3 +1,4 @@
+import React from 'react';
 import Pentagon from './pentagon/Pentagon';
 import List from './list/List';
 
