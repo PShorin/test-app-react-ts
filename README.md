@@ -1,46 +1,47 @@
-# Getting Started with Create React App
+# Test app (React + TS + SASS)
+
+Ссылка на проект: <a href="https://pshorin.github.io/test-app-react-ts/" target="_blank">https://pshorin.github.io/test-app-react-ts/</a>
+
+## Описание выбора технологий для проекта:
+
+В данном README представлены обоснования выбора различных технологий и библиотек для данного проекта. При этом основными факторами выбора были: возможность работать над проектом будущей команды разработчиков с разным уровнем подготовки, а также перспективы масштабирования проекта.
+
+### `React`
+
+Для разработки данного проекта был выбран фреймворк React. Этот выбор был обоснован не только популярностью React, но и рядом других важных факторов:
+
+- Популярность и экосистема: React - один из самых популярных фреймворков для разработки пользовательских интерфейсов. Это означает наличие большой и активной сообщества разработчиков, множества готовых компонентов и библиотек, а также множество обучающих ресурсов. Это облегчает внесение новых разработчиков в проект и поиск решений для задач.
+- Производительность: Виртуальный DOM в React обеспечивает эффективность интерфейса, особенно при масштабировании.
+- Реиспользуемость кода: React позволяет создавать компоненты, что упрощает разработку и поддержку.
+
+### `TypeScript`
+
+Для уменьшения возможных ошибок и улучшения читаемости кода в будущем при масштабировании проекта был выбран TypeScript. TypeScript - это строго типизированный надмножественный язык JavaScript, который предоставляет ряд преимуществ:
+
+- Статическая типизация: TypeScript предотвращает ошибки на этапе разработки, обеспечивая надежность кода.
+- Улучшенная поддержка IDE: TypeScript обогащает среды разработки функциональностью, что упрощает работу.
+- Документация и читаемость кода: TypeScript делает код более читаемым и понятным.
+
+### `SASS`
+
+Для стилизации проекта был выбран препроцессор SASS. Этот выбор также обоснован рядом факторов:
+
+- Улучшенный синтаксис: SASS предоставляет более удобный синтаксис для создания стилей.
+- Модульность и переиспользуемость: SASS позволяет создавать переменные и миксины для гибкой системы стилей.
+- Легкая интеграция: SASS легко интегрируется с проектом на React и TypeScript, что обеспечивает единое управление стилями и компонентами.
+
+#### Getting Started
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+##### Available Scripts
 
 In the project directory, you can run:
 
-### `yarn start`
+`yarn start`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+Runs the app in the development mode.
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+`yarn build`
 
-### `yarn test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `yarn build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `yarn eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+Builds the app for production to the `build` folder.
